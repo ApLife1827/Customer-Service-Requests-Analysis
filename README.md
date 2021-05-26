@@ -7,6 +7,40 @@ NYC 311's mission is to provide the public with quick and easy access to all New
 Perform a service request data analysis of New York City 311 calls. You will focus on the data wrangling techniques to understand the pattern in the data and also visualize the major complaint types.
 Domain: Customer Service
 
+Dataset Description :
+
+Field	               Description
+Unique Key	           (Plain text) - Unique identifier for the complaints
+Created Date	       (Date and Time) - The date and time on which the complaint is raised
+Closed Date	           (Date and Time)  - The date and time on which the complaint is closed
+Agency	               (Plain text) - Agency code
+Agency Name	           (Plain text) - Name of the agency
+Complaint Type	       (Plain text) - Type of the complaint
+Descriptor	           (Plain text) - Complaint type label (Heating - Heat, Traffic Signal Condition - Controller)
+Location Type	       (Plain text) - Type of the location (Residential, Restaurant, Bakery, etc)
+Incident Zip	       (Plain text) - Zip code for the location
+Incident Address	   (Plain text) - Address of the location
+Street Name	           (Plain text) - Name of the street
+Cross Street 1	       (Plain text) - Detail of cross street
+Cross Street 2	       (Plain text) - Detail of another cross street
+Intersection Street 1  (Plain text) - Detail of intersection street if any
+Intersection Street 2  (Plain text) - Detail of another intersection street if any
+Address Type	       (Plain text) - Categorical (Address or Intersection)
+City	               (Plain text) - City for the location
+Landmark	           (Plain text) - Empty field
+Facility Type	       (Plain text) - N/A
+Status	               (Plain text) - Categorical (Closed or Pending)
+Due Date	           (Date and Time) - Date and time for the pending complaints
+Community Board	       (Plain text) - Categorical field (specifies the community board with its code)
+Borough	               (Plain text) - Categorical field (specifies the community board)
+X Coordinate	       (State Plane) (Number)
+Y Coordinate	       (State Plane) (Number)
+Park Facility Name	   (Plain text) - Unspecified
+Park Borough	       (Plain text) - Categorical (Unspecified, Queens, Brooklyn etc)
+Latitude	           (Number) - Latitude of the location
+Longitude	           (Number) - Longitude of the location
+Location	           (Location) - Coordinates (Latitude, Longitude)
+
 ## Analysis Tasks to be performed:
 
 (Perform a service request data analysis of New York City 311 calls) 
