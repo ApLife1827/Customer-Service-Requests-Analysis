@@ -9,67 +9,66 @@ Domain: Customer Service
 
 Dataset Description :
 
-Field	               Description
 
-Unique Key	           (Plain text) - Unique identifier for the complaints
+Unique Key:	           (Plain text) - Unique identifier for the complaints
 
-Created Date	       (Date and Time) - The date and time on which the complaint is raised
+Created Date:	       (Date and Time) - The date and time on which the complaint is raised
 
-Closed Date	           (Date and Time)  - The date and time on which the complaint is closed
+Closed Date:           (Date and Time)  - The date and time on which the complaint is closed
 
-Agency	               (Plain text) - Agency code
+Agency:	               (Plain text) - Agency code
 
-Agency Name	           (Plain text) - Name of the agency
+Agency Name:	           (Plain text) - Name of the agency
 
-Complaint Type	       (Plain text) - Type of the complaint
+Complaint Type:	       (Plain text) - Type of the complaint
 
-Descriptor	           (Plain text) - Complaint type label (Heating - Heat, Traffic Signal Condition - Controller)
+Descriptor:	           (Plain text) - Complaint type label (Heating - Heat, Traffic Signal Condition - Controller)
 
-Location Type	       (Plain text) - Type of the location (Residential, Restaurant, Bakery, etc)
+Location Type:	       (Plain text) - Type of the location (Residential, Restaurant, Bakery, etc)
 
-Incident Zip	       (Plain text) - Zip code for the location
+Incident Zip:	       (Plain text) - Zip code for the location
 
-Incident Address	   (Plain text) - Address of the location
+Incident Address:	   (Plain text) - Address of the location
 
-Street Name	           (Plain text) - Name of the street
+Street Name:	           (Plain text) - Name of the street
 
-Cross Street 1	       (Plain text) - Detail of cross street
+Cross Street 1:	       (Plain text) - Detail of cross street
 
-Cross Street 2	       (Plain text) - Detail of another cross street
+Cross Street 2:	       (Plain text) - Detail of another cross street
 
-Intersection Street 1  (Plain text) - Detail of intersection street if any
+Intersection Street 1:  (Plain text) - Detail of intersection street if any
 
-Intersection Street 2  (Plain text) - Detail of another intersection street if any
+Intersection Street 2:  (Plain text) - Detail of another intersection street if any
 
-Address Type	       (Plain text) - Categorical (Address or Intersection)
+Address Type:	       (Plain text) - Categorical (Address or Intersection)
 
-City	               (Plain text) - City for the location
+City:	               (Plain text) - City for the location
 
-Landmark	           (Plain text) - Empty field
+Landmark:	           (Plain text) - Empty field
 
-Facility Type	       (Plain text) - N/A
+Facility Type:	       (Plain text) - N/A
 
-Status	               (Plain text) - Categorical (Closed or Pending)
+Status:	               (Plain text) - Categorical (Closed or Pending)
 
-Due Date	           (Date and Time) - Date and time for the pending complaints
+Due Date:	           (Date and Time) - Date and time for the pending complaints
 
-Community Board	       (Plain text) - Categorical field (specifies the community board with its code)
+Community Board:	       (Plain text) - Categorical field (specifies the community board with its code)
 
-Borough	               (Plain text) - Categorical field (specifies the community board)
+Borough:	               (Plain text) - Categorical field (specifies the community board)
 
-X Coordinate	       (State Plane) (Number)
+X Coordinate:	       (State Plane) (Number)
 
-Y Coordinate	       (State Plane) (Number)
+Y Coordinate:	       (State Plane) (Number)
 
-Park Facility Name	   (Plain text) - Unspecified
+Park Facility Name:	   (Plain text) - Unspecified
 
-Park Borough	       (Plain text) - Categorical (Unspecified, Queens, Brooklyn etc)
+Park Borough:	       (Plain text) - Categorical (Unspecified, Queens, Brooklyn etc)
 
-Latitude	           (Number) - Latitude of the location
+Latitude:	           (Number) - Latitude of the location
 
-Longitude	           (Number) - Longitude of the location
+Longitude:	           (Number) - Longitude of the location
 
-Location	           (Location) - Coordinates (Latitude, Longitude)
+Location:	           (Location) - Coordinates (Latitude, Longitude)
 
 ## Analysis Tasks to be performed:
 
